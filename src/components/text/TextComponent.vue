@@ -33,7 +33,7 @@
 			<div class="description-container">
 				<h3 class="center-text">text</h3>
 				<div class="note important">
-					<p><strong>Nota:</strong> La alineación del texto se hace en torno al ancho del elemento (propiedad width), y no sobre el relleno (propiedad padding).</p>
+					<p><strong>Nota:</strong> La alineación del texto se hace respecto al ancho del elemento (propiedad width), y no sobre el relleno (propiedad padding).</p>
 				</div>
 				<div class="code margin-vertical">
 					<div>div {<p>text-align: {{tAlign}};</p><p>text-decoration: {{tDecoration}};</p><p>text-transform: {{tTransform}};</p>}</div>
@@ -103,7 +103,7 @@
 				</div>
 				<div class="options margin-vertical">
 					<p class="small-jump"><label>height</label>
-						<input type="range" v-model="lineHeight" min="7" max="12">
+						<input type="range" v-model="lineHeight" min="7" max="25">
 					</p>
 				</div>
 			</div>

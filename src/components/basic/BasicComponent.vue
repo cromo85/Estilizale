@@ -86,7 +86,7 @@
 			<div class="description-container">
 				<h3 class="center-text">padding</h3>
 				<div class="note definition">
-					<p>Esta propiedad altera el tamaño del elemento HTML agregando relleno alrededor del elemnto.</p>
+					<p>Esta propiedad altera el tamaño del elemento HTML agregando relleno alrededor del elemento.</p>
 				</div>
 				<div class="code margin-vertical">
 					<div>div { padding: {{padding}}px; }</div>

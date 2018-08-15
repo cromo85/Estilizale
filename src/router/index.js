@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+import Home from '@/components/home/HomeComponent'
 import Greet from '@/components/GreetComponent'
 import Text from '@/components/text/TextComponent'
 import Border from '@/components/border/BorderComponent'
@@ -12,8 +12,8 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'HelloWorld',
-      component: HelloWorld
+      name: 'HomeComponent',
+      component: Home
     },
     {
       path: '/greet',

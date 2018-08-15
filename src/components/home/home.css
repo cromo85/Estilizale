@@ -1,0 +1,35 @@
+body {
+	height: 100vh;
+}
+#app, .center {
+	height: 100%;
+}
+.center, .intro-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.intro-container {
+	width: 50%;
+	box-sizing: border-box;
+	padding: 15px;
+	color: dodgerblue;
+	background-color: #e6fcf5;
+
+	flex-direction: column;
+}
+h2, .intro-container {
+	text-align: center;
+}
+h2 {
+	margin: 15px auto;
+	font-size: 34px;
+}
+.intro-container p {
+	font-size: 22px;
+}
+@media screen and (max-width: 590px) {
+	.intro-container {
+		width: 80%;
+	}
+}
