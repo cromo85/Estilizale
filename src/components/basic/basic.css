@@ -1,0 +1,15 @@
+.cube {
+	width: 55px;
+	height: 55px;
+	position: relative;
+}
+.principal {
+	background-color: #f9ca24;
+}
+.extra, .txt-container {
+	background-color: dodgerblue;
+}
+.txt-container {
+	color: white;
+	font-size: 18px;
+}

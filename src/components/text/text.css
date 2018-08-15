@@ -1,0 +1,17 @@
+.text-container {
+	width: 90%;
+	margin: 0 auto;
+	font-size: 24px;
+	color: dodgerblue;
+	box-sizing: border-box;
+	padding: 13px 10px;
+}
+.center-align {
+	text-align: center;
+}
+.font-size {
+	font-size: 44px;
+}
+.docky {
+	border-bottom: 3px solid yellow;
+}

@@ -1,0 +1,37 @@
+.rectangle {
+	width: 150px;
+	height: 120px;
+	box-sizing: initial !important;
+	border-color: #8e44ad;
+}
+.border-ds {
+	border-style: solid;
+}
+.border-dw {
+	border-width: 8px;
+}
+.border-ss {
+	border-style: solid dotted double dashed;
+}
+.square {
+	width: 150px;
+	height: 150px;
+	background-color: crimson;
+	margin: 0px 15px;
+	display: flex;
+}
+.square span {
+	box-sizing: border-box;
+	padding: 10px;
+	font-size: 18px;
+	color: white;
+}
+.blue {
+	background-color: dodgerblue;
+}
+.yellow {
+	background-color: #fff200;
+}
+.green {
+	background-color: #0CE605;
+}
